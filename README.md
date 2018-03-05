@@ -2,7 +2,7 @@
 This is the repository for AY250 (Python Computing for Data Science) homework submission.
 
 # Directories of work
-[Numpy, Scipy, Pandas - Audio & Image processing](hw_1)
-[Plotting & Data Visualization](hw_2)
-[Interaction with the world]
-[Parallelism](hw_4)
+- [Numpy, Scipy, Pandas - Audio & Image processing](hw_1)
+- [Plotting & Data Visualization](hw_2)
+- [Interaction with the world]
+- [Parallelism](hw_4)
