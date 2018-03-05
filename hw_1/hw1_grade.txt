@@ -1,0 +1,70 @@
+Your score: 18/24
+
+**** WELL DONE! ****
+https://www.youtube.com/watch?v=2F2i6EQsPZY
+
+[An edited version of] your code for Problem 4 is going to be
+the ~*~official solution~*~ to provide wisdom, guidance, and
+life insights for your classmates and generations to come!
+You're the best around!
+
+Breakdown & Comments: 
+
+----------------------------------------
+Coding Style: 3/4
+----------------------------------------
+1/1: git repo style
+1/1: code style
+1/1: notebook style
+0/1: code portability
+
+Nice code commenting & use of markdown cells!
+
+portability -
+could not run "out of the box" - you didn't import OrderedDict?
+
+----------------------------------------
+Problem 1: 6/6 
+----------------------------------------
+3/3: good attempt of each part
+3/3: successful execution of each part
+
+----------------------------------------
+Problem 2: 4/7
+----------------------------------------
+1/2: good attempt of parts 2 and 5
+3/5: successful completion of parts 1-5
+
+part 2 - technical/mathematical note:
+power spectrum (for finding the "smallest component") is [prop to] y**2
+
+parts 4 & 5 are missing.
+
+also OrderedDict was never imported?
+
+----------------------------------------
+Problem 3: 1/2 
+----------------------------------------
+1/2: successful completion of year/lunar estimates
+
+you assumed *way* too narrow of a prior on your fits, basically 
+putting in the number of days you *know* to be the answer
+
+also your output "ice cream approximately 360.0 a year with period of orbits as 36.3"
+is confusing? why would ice cream correlate with the moon?
+
+----------------------------------------
+Problem 4: 4/5 
+----------------------------------------
+1/1: understanding what is going on in the plot for part 1
+1/1: good attempt of part 1
+2/3: successful completion of parts 1-3
+
+you didn't answer part 2! :(
+
+http://www.themost10.com/wp-content/uploads/2012/04/Dwight-Schrute-7.jpg
+ANSWER: don't worry about reproducing the plot exactly; its general behavior should
+be consistent between runs, right?
+
+
+Graded by C. E. Harris

@@ -1,0 +1,32 @@
+Your score: 9/17
+
+Breakdown & Comments: 
+
+----------------------------------------
+Problem 1: 4/5
+----------------------------------------
+0/1: plot with caption
+4/4: analysis
+
+No caption
+
+
+----------------------------------------
+Problem 2: 0/7
+----------------------------------------
+/3: Recreated plot
+/3: New dynamic interactions
+/1: Analysis of changes
+
+Can't and won't be responsible for answering e-mail 24/7 :) 
+
+----------------------------------------
+Problem 3: 5/5
+----------------------------------------
+5/5: Reproduced plot: title, twin_x, legend, limits, linestyles
+
+No problem about the font issue; we wanted to see you use a couple
+of fonts.
+
+
+Graded by C. E. Harris
