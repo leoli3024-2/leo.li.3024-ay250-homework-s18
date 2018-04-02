@@ -10,7 +10,11 @@ Write a set of methods that takes as input one of given [images](https://www.dro
 * features.pkl
   - serialized file for extracted features
 * random_forest.pkl
+  - not existed in this repo due to its too-large size for github
   - serialized file for trained Random Forest Classifier based on the extracted features
+* random_guessing.pkl
+  - not existed in this repo (though only ~4KB) but to keep consistency (ramdon_forest.pkl not existed)
+  - serialized file for trained DummyClassifier based on the extracted features
 
 ## How to use the classifier?
 Run function run_final_classifier then call this function with any set of images, all of which could be classified into the given 50 categories.
