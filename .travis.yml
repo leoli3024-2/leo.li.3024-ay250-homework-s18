@@ -6,4 +6,4 @@ install:
   - pip install pybtex
   - pip install flask_sqlalchemy
 script:
-  - python hw_8/hw8tests.py
+  - python hw_8/bib_server.py
