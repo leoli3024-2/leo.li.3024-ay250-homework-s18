@@ -3,11 +3,13 @@
 {% set page_title = 'Query BibTeX collection' %}
 
 {% block content %}
-	<a href="{{ url_for('index') }}">Return home</a><br>
+	<a href="{{ url_for('index') }}">Back to Main Page</a><br>
 	<h1>Query collection: {{ collection }}</h1>
-	<p>Use SQL syntax to enter the query string that follows the "WHERE".</p>
+	<p>A database is present. You can query it with teh form below.</p>
+	<p>Use SQL query syntax to enter the query string that follows the "WHERE".</p>
 	<p>Column names are: citation_tag, author_list, editor_list, journal_book, volume, pages, year, title.</p>
-	<p>For wildcards, use "LIKE" and "%"" for multicharacter wildcards or "_" for single character wildcards.</p>
+	<p>To use wildcards, use "LIKE" and employ the "%" (percent symbol) as multiple character wildcards and "_" (underscore) as single character wildcard.</p>
+	<p>You do NOT need to put strings in quotes, eg. enter 'year < 1910' to query.</p>
 	<form action="" method="POST">
 	Query:
 	<input type="text" name="query" size=200/>
@@ -17,7 +19,7 @@
 	<h1>Results:</h1>
 	{% for result in results %}
 		<li>
-			<b>Tag</b>: <a href="http://www.adsabs.harvard.edu/abs/{{ result.citation_tag }}">{{ result.citation_tag }}</a><br>
+			<b>Reference Tag</b>: <a href="http://www.adsabs.harvard.edu/abs/{{ result.citation_tag }}">{{ result.citation_tag }}</a><br>
 			<b>Authors</b>: {{ result.author_list }}<br>
 			<b>Editors</b>: {{ result.editor_list }}<br>
 			<b>Journal/Book</b>: {{ result.journal_book }}<br>
