@@ -14,3 +14,4 @@ This is the repository for AY250 (Python Computing for Data Science) homework su
 - [Supervised Machine Learning for Image Classification](hw_6)
 - [Computer Vision - Object Segmentation & Panorama Stitching](hw_7)
 - [Flask-based Website with Flask-SQLAlchemy](hw_8)
+- [Bayesian Inference](hw_9)
